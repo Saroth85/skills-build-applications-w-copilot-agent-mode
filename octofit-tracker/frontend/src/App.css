@@ -1,0 +1,71 @@
+/* App.css */
+
+/* Background color */
+body {
+    background-color: #f0f8ff; /* Light blue */
+    color: #333; /* Dark text color */
+}
+
+/* Table styling */
+table {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ccc; /* Light gray border */
+    color: #333; /* Dark text color */
+}
+
+/* Button styling */
+button {
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+/* Heading styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #007bff; /* Bootstrap primary blue */
+}
+
+/* Link styling */
+a {
+    color: #007bff; /* Bootstrap primary blue */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue */
+    text-decoration: underline;
+}
+
+/* Navigation menu styling */
+.navbar {
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: #fff; /* White text */
+}
+
+.navbar a {
+    color: #fff; /* White text */
+}
+
+.navbar a:hover {
+    color: #d4d4d4; /* Light gray */
+}
+
+/* Logo styling */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
